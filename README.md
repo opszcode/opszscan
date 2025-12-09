@@ -81,11 +81,7 @@ bash
 export DEEPSEEK_API_KEY="your-api-key"
 
 If not set, a default demo key is used.
-📁 Project Structure
-text
 
-opsz.py               # Main application
-scan_history.json     # Automatically saved scan history
 
 📄 Export Formats
 
