@@ -1,0 +1,23 @@
+safety:
+  enable_safety_checks: false
+  block_private_ips: false
+  block_localhost: false
+  blocked_domains:
+    - facebook.com
+    - google.com
+    - microsoft.com
+    - amazon.com
+    - gov
+    - mil
+  require_authorization: false
+
+scanner:
+  max_concurrent: 15
+  timeout: 20
+  delay: 0.15
+  max_depth: 3
+  user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+
+proxy: null
+auth:
+  type: null
